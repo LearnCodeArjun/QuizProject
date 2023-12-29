@@ -1,0 +1,9 @@
+server.port=8082
+spring.application.name=QUESTION-SERVICE
+
+      
+spring.data.mongodb.host=MicroProject2
+spring.data.mongodb.port=27017
+
+#spring.jpa.show-sql=true 
+#pring.jpa.hibernate.ddl-auto=update

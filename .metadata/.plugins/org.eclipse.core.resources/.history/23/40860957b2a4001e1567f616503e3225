@@ -1,0 +1,18 @@
+package com.example.demo.Service;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.demo.entity.Question;
+
+@FeignClient(url="http://localhost:8082",value="Question_client")
+public interface QuestionClient {
+	
+	
+    //List<Question> getQuestionOfQuiz(@PathVariable Long quizId);
+	@GetMapping("/question/quiz/{quizId}")
+	List<Question>getQuestionOfQuiz();
+
+}

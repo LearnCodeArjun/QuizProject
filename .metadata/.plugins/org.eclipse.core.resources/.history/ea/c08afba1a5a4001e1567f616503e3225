@@ -1,0 +1,17 @@
+server.port=8082
+#spring.application.name=QUESTION-SERVICE
+
+      
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.database=mydb
+
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/microProject2
+spring.datasource.username=postgres
+spring.datasource.password=12345
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.show-sql=true 
+spring.jpa.hibernate.ddl-auto=update

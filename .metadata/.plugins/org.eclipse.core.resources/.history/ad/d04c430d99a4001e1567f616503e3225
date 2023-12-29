@@ -1,0 +1,9 @@
+package com.question.repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.question.entity.Question;
+
+public interface  QuestionRepository extends MongoRepository<Question,Integer> { 
+
+}
